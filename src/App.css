@@ -1,15 +1,19 @@
 header {
-  height: 118px;
-  border: 1px solid brown;
   background-color: #131921;
 }
+.a_header_top {
+  height: 60px;
+}
+.a_header_bottom {
+  height: 39px;
+  background-color: #232f3e;
+}
 .a_main {
-  height: 7588px;
-  border: 1px solid blue;
+  height: 4818px;
   background-color: #e3e6e6;
 }
 footer {
-  height: 954px;
+  height: 227px;
   border: 1px dashed green;
   background-color: #131921;
 }
