@@ -1,7 +1,9 @@
 .section1_grand {
   background-color: rgba(255, 255, 255, 0.366);
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: 1em;
 }
 .section1_cards {
   background-color: aliceblue;
