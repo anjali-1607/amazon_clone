@@ -51,9 +51,9 @@ export default function Carousel() {
                 aria-hidden="true"></span>
               <span className="visually-hidden">Next</span>
             </button>
+            <Homecard />
           </div>
         </div>
-        <Homecard />
       </div>
     </>
   );

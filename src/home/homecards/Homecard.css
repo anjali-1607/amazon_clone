@@ -1,10 +1,6 @@
 .a_main11 {
-  /* padding: 0 10px 0; */
   /* background-color: rgb(102, 102, 102); */
   position: relative;
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
 }
 .a_main2 {
   width: 97%;
@@ -13,6 +9,8 @@
   background-color: #8e8e8e57;
   z-index: 1;
   position: absolute;
-  top: -380px;
-  left: 20px;
+  /* top: -380px; */
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -8%);
 }
