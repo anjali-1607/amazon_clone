@@ -1,0 +1,10 @@
+.section3_div1 {
+  width: 100%;
+  height: 367px;
+  background-color: rgb(133, 133, 133);
+}
+.section3_imgcont {
+  height: 300px;
+  background-color: rgba(250, 235, 215, 0.288);
+  display: flex;
+}
