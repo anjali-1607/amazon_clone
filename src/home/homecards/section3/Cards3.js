@@ -4,47 +4,62 @@ import "./Card3.css";
 export default function Cards3() {
   return (
     <>
-      <div className="section1_grand">
-        <div className="section3_div1">
-          <div id="carouselExample" className="carousel slide">
-            <div className="carousel-inner">
-              <div className="carousel-item active">
-                <div className="section3_imgcont">
-                  <img src={require("./images/img1.jpg")} />
-                </div>
-              </div>
-              <div className="carousel-item">
-                <img
-                  src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD…HJpUqgkruSjEdcjmoTuWNmPTpiu0qVjEG4f7a5SpUEn//2Q=="
-                  className="d-block w-50 h-50"
-                  alt="img2"
-                />
-              </div>
-              <div className="carousel-item">
-                <img src=".." className="d-block w-100" alt="img3" />
+      <div className="section3_grand p-2">
+        <div>
+          Today's Deals
+          <button type="button" className="btn btn-link">
+            see your deals
+          </button>
+        </div>
+        <div id="carouselExample2" class="carousel slide">
+          <div class="carousel-inner text-center">
+            <div class="carousel-item active">
+              <div className="sect3_imgCont row">
+                <div className="col">1</div>
+                <div className="col">2</div>
+                <div className="col">3</div>
+                <div className="col">4</div>
+                <div className="col">5</div>
+                <div className="col">6</div>
               </div>
             </div>
-            <button
-              className="carousel-control-prev h-100"
-              type="button"
-              data-bs-target="#carouselExample"
-              data-bs-slide="prev">
-              <span
-                className="carousel-control-prev-icon"
-                aria-hidden="true"></span>
-              <span className="visually-hidden">Previous</span>
-            </button>
-            <button
-              className="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExample"
-              data-bs-slide="next">
-              <span
-                className="carousel-control-next-icon"
-                aria-hidden="true"></span>
-              <span className="visually-hidden">Next</span>
-            </button>
+            <div class="carousel-item">
+              <div className="sect3_imgCont row ">
+                <div className="col">11</div>
+                <div className="col">12</div>
+                <div className="col">13</div>
+                <div className="col">14</div>
+                <div className="col">15</div>
+                <div className="col">16</div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div className="sect3_imgCont row">
+                <div className="col">21</div>
+                <div className="col">22</div>
+                <div className="col">23</div>
+                <div className="col">24</div>
+                <div className="col">25</div>
+                <div className="col">26</div>
+              </div>
+            </div>
           </div>
+          <button
+            class="a_cc carousel-control-prev "
+            type="button"
+            data-bs-target="#carouselExample2"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="a_cc carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample2"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
     </>

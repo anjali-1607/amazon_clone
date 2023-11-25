@@ -1,3 +1,8 @@
+.section3_grand {
+  margin-bottom: 1em;
+  background-color: rgba(255, 255, 255, 0.366);
+}
+
 .section3_div1 {
   width: 100%;
   height: 367px;
@@ -6,5 +11,19 @@
 .section3_imgcont {
   height: 300px;
   background-color: rgba(250, 235, 215, 0.288);
-  display: flex;
+}
+.sect3_imgCont {
+  border: 1px dashed rebeccapurple;
+  height: 300px;
+}
+.sect3_imgCont > div {
+  border: 1px dashed rgb(29, 0, 57);
+  height: 260px;
+}
+#carouselExample2 .a_cc {
+  background-color: rgba(255, 255, 255, 0.362);
+  width: 3%;
+  height: 30%;
+  top: 112px;
+  color: black;
 }
