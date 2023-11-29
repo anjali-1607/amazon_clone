@@ -1,13 +1,13 @@
 import React from "react";
 import "./Navbar.css";
+import NavbarTop from "./NavbarTop";
+import NavbarBottom from "./NavbarBottom";
 
 export default function Navbar() {
   return (
     <>
-      <header>
-        <div className="a_header_top"></div>
-        <div className="a_header_bottom"></div>
-      </header>
+      <NavbarTop />
+      <NavbarBottom />
     </>
   );
 }
