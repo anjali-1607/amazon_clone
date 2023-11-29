@@ -3,24 +3,119 @@
   height: 60px;
   position: sticky;
   top: 0px;
-  padding: 5px;
+  padding: 6px 8px;
   z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .amazon_nav_logo {
-  width: 100px;
-  height: 30px;
-  /* margin: 1em; */
+  width: 95px;
+  height: 28px;
+  margin-top: 5px;
   cursor: pointer;
 }
-.amazon_nav_logo :hover {
-  border: 1px solid white;
+.top_nav_btn1 {
+  width: 120px;
+  height: 48px;
+  background: none;
+  border: none;
+  cursor: pointer;
 }
-.top_nav_btn {
-  background-color: transparent;
-  border: 2px solid white;
-  height: 45px;
+.top_nav_btn2 {
   width: 100px;
+  height: 48px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: white;
 }
+
+.top_nav_btn1:hover {
+  border: 1px solid #e8e8e8;
+  border-radius: 2px;
+}
+.top_nav_btn2:hover {
+  border: 1px solid #e8e8e8;
+  border-radius: 2px;
+}
+.nav_btn2_1 {
+  font-size: 12px;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  line-height: 14px;
+  /* text-align: start; */
+  letter-spacing: normal;
+  color: rgba(255, 255, 255, 0.762);
+}
+.nav_btn2_2 {
+  font-size: 14px;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  line-height: 15px;
+  /* text-align: start; */
+  letter-spacing: normal;
+}
+.location_icon_nav {
+  size: 200;
+}
+.nav_search_all {
+  width: 955px;
+  height: 40px;
+  margin: 0 1em;
+  background-color: rgba(255, 255, 255, 0.982);
+}
+.top_nav_btn3 {
+  width: 70px;
+  height: 48px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.top_nav_btn3:hover {
+  border: 1px solid #e8e8e8;
+  border-radius: 2px;
+}
+.top_nav_btn4 {
+  width: 130px;
+  height: 48px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.top_nav_btn4:hover {
+  border: 1px solid #e8e8e8;
+  border-radius: 2px;
+}
+.top_nav_btn5 {
+  width: 80px;
+  height: 48px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.top_nav_btn5:hover {
+  border: 1px solid #e8e8e8;
+  border-radius: 2px;
+}
+.top_nav_btn6 {
+  width: 90px;
+  height: 48px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.top_nav_btn6:hover {
+  border: 1px solid #e8e8e8;
+  border-radius: 2px;
+}
+
 .a_header_bottom {
   height: 39px;
   background-color: #232f3e;
