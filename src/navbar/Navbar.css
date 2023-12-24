@@ -62,6 +62,7 @@
   height: 40px;
   margin: 0 1em;
   background-color: rgba(255, 255, 255, 0.982);
+  border-radius: 5px;
 }
 .top_nav_btn3 {
   width: 70px;
@@ -119,4 +120,18 @@
 .a_header_bottom {
   height: 39px;
   background-color: #232f3e;
+}
+.btn5_returns {
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 12px;
+  line-height: 14px;
+  /* text-align: start; */
+  letter-spacing: normal;
+}
+.btn5_orders {
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 15px;
+  /* text-align: start; */
+  letter-spacing: normal;
 }
